@@ -1,0 +1,255 @@
+.slider-wala-section h1 {
+  margin-top: 20px;
+  /* z-index: 90; */
+  position: absolute;
+  /* top: 2000px; */
+  left: 420px;
+  /* margin-top: 200px; */
+  height: 80px;
+  font-size: 35px;
+  border: 1px solid red;
+}
+
+.slider {
+  /* margin-top: 110px; */
+  height: 500px;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-image: url(./images/product-1.jpg);
+  background-position: center;
+  background-size: cover;
+
+  animation: slider 10s infinite 2s;
+
+  /* extra */
+  font-size: 35px;
+  position: relative;
+  top: 10px;
+  /* left: 700px; */
+  /* z-index: 40; */
+
+  /* extra */
+}
+@keyframes slider {
+  0% {
+    background-image: url(../Images/products/sports-1.jpg);
+  }
+  15% {
+    background-image: url(../images/products/watch-3.jpg);
+  }
+  20% {
+    background-image: url(../images/products/shirt-1.jpg);
+
+  }
+ 
+  30% {
+    background-image: url(../images/products/n8.jpg);
+  }
+  40% {
+    background-image: url(../images/products/n7.jpg);
+  }
+  50% {
+    background-image: url(../images/products/n5.jpg);
+
+  }
+  60% {
+    background-image: url(../images/products/jewellery-3.jpg);
+
+  }
+ 
+  70% {
+    background-image: url(../images/products/f2.jpg);
+  }
+  
+  80% {
+    background-image: url(../images/products/f1.jpg);
+  }
+ 
+  90% {
+    background-image: url(../images/products/belt.jpg);
+  }
+  95% {
+    background-image: url(../images/products/4.jpg);
+  }
+  100% {
+    background-image: url(../images/products/2.jpg);
+  }
+}
+
+/* new arrivals */
+.new-arrivals {
+  margin-top: 280px;
+  /* border: 1px solid red; */
+}
+.new-arrivals h1 {
+  margin-top: 90px;
+
+  position: absolute;
+  top: 5850px;
+  left: 550px;
+
+  height: 50px;
+  font-size: 45px;
+}
+.line-b {
+  position: relative;
+  height: 3px;
+  width: 150px;
+  left: 550px;
+  top: 0px;
+  background-color: #ff523b;
+}
+.line-b-2 {
+  position: relative;
+  height: 3px;
+  width: 340px;
+  left: 500px;
+  top: 170px;
+  background-color: #ff523b;
+}
+/* reviews */
+.reviews {
+  display: flex;
+  margin-top: 100px;
+  gap: 20px;
+  padding-top: 0;
+  padding-left: 170px;
+  flex-wrap: wrap;
+  align-items: center;
+  /* border: 2px solid red; */
+  /* background: radial-gradient(#fff, #ffd6d6); */
+
+  height: 500px;
+  width: 100%;
+}
+.customer1 {
+  /* padding-top: 20px; */
+  box-shadow: 2px 2px 7px rgb(145, 143, 143);
+  position: relative;
+  /* left: 140px; */
+  /* top: 60px; */
+  height: 290px;
+  width: 240px;
+  transition: all 1s ease;
+  /* border: 2px solid rgb(243, 11, 243); */
+}
+.customer1:hover {
+  border: 2px solid green;
+  transform: translateY(-3px);
+}
+.customer1 h3 {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.customer1 p {
+  text-align: center;
+  margin-top: 10px;
+
+  font-size: 13px;
+}
+.customer1 img {
+  margin-left: 68px;
+  margin-top: 10px;
+  text-align: center;
+  height: 80px;
+  width: 90px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+/* brands */
+.brands {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 200px;
+  width: 100%;
+  margin-top: 10px;
+  padding-left: 200px;
+  padding-top: 50px;
+
+  gap: 30px;
+}
+.brands img {
+  /* margin-top: 20px; */
+  /* margin-left: 90px; */
+  height: 65px;
+  width: 160px;
+  /* border: 2px solid red; */
+}
+
+/* footer  */
+.footer {
+  /* background: radial-gradient(#fff,#ffd6d6); */
+  /* background: radial-gradient(#fff,#faf2f2); */
+  /* background: radial-gradient(#fff, #ffd6d6); */
+  background-color: rgb(241, 237, 237);
+  display: flex;
+  gap: 40px;
+  color: black;
+  width: 100%;
+  margin-top: 70px;
+
+  height: 400px;
+  padding-left: 80px;
+  padding-top: 60px;
+  /* border: 2px solid red; */
+}
+.first-list {
+  margin-top: 30px;
+  height: 220px;
+  width: 310px;
+  /* border: 2px solid red; */
+}
+.first-list h2 {
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.first-list p {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.first-list img {
+  margin-top: 28px;
+  margin-left: 10px;
+  height: 40px;
+  width: 140px;
+  /* border: 2px solid red; */
+}
+.second-list {
+  margin-top: 30px;
+
+  height: 170px;
+  width: 310px;
+  /* border:2px solid red;    */
+}
+.second-list p {
+  padding-top: 20px;
+  padding-left: 15px;
+}
+.second-list img {
+  margin-top: 30px;
+  margin-left: 60px;
+  height: 70px;
+  width: 140px;
+  /* border: 2px solid red; */
+}
+.third-list {
+  margin-top: 30px;
+
+  height: 200px;
+  width: 200px;
+  /* border: 2px solid red;    */
+}
+.third-list li {
+  line-height: 25px;
+  list-style: none;
+  text-align: center;
+}
+.footer-head {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  font-size: 21px;
+}
